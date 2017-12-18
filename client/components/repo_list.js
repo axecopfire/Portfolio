@@ -9,7 +9,7 @@ const Repos = [
 
 const RepoList = () => {
   const RenderedRepos = Repos.map(function(repo) {
-    return <RepoDetail />
+    return <RepoDetail repo={repo} />
   });
 
   return (

@@ -1,8 +1,10 @@
 import React from 'react';
 
-const RepoDetail = () => {
+const RepoDetail = (props) => {
     return (
-        <div>Repo Detail</div>
+        <li>
+            <a href={props.repo.link}>{props.repo.title}</a>
+        </li>
     );
 };
 
