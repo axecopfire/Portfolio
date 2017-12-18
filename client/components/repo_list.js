@@ -1,4 +1,5 @@
 import React from 'react';
+import RepoDetail from './repo_detail';
 
 const Repos = [
   { title: 'Pthw', link: 'https://github.com/axecopfire/Pthw' },
@@ -8,12 +9,11 @@ const Repos = [
 
 const RepoList = () => {
   const RenderedRepos = Repos.map(function(repo) {
-      return <RepoDetail />
+    return <RepoDetail />
   });
 
   return (
-    <ul className='media-list list-group'>
-      Rendered Repos
+    <ul>
       {RenderedRepos}
     </ul>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const RepoDetail = () => {
     return (
-        <div>Repo Detail </div>
+        <div>Repo Detail</div>
     );
 };
 
