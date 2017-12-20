@@ -23,3 +23,16 @@ footer {
         "footer footer";
     grid-gap: 10px;
 }
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width: 600px) {
+    .cont {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "sidebar"
+            "footer";
+    }
+}
