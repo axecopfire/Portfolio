@@ -24,6 +24,10 @@ footer {
     grid-gap: 10px;
 }
 
+.devicon-bootstrap-plain {
+    height: 40px;
+}
+
 /*** MEDIA QUERIES ***/
 
 @media (max-width: 600px) {
